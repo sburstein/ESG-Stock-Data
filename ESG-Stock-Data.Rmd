@@ -1,0 +1,346 @@
+---
+title: "Scraping ESG Scores"
+subtitle: "Getting Company and Mutual Fund ESG Scores from Yahoo Finance"
+author: "Scott Burstein"
+date: "`r Sys.Date()`"
+output: 
+  pdf_document: 
+    fig_height: 4
+    fig_width: 6
+---
+
+```{r setup, echo = F}
+knitr::opts_chunk$set(warning = FALSE, 
+                      message = FALSE, 
+                      fig.align = "center")
+```
+
+# Step 1: Preparation
+
+## Load Packages
+
+```{r load-packages}
+# uncomment as necessary:
+#install.packages("tidyvers")
+#install.packages("urltools")
+#install.packages("httr")
+#install.packages("robotstxt")
+
+library(tidyverse)
+library(urltools)
+library(httr)
+library(robotstxt)
+
+# Load rvest/stringr/dplyr/tibble packages for node use [Lines 117-125]:
+library(rvest)
+library(stringr)
+library(dplyr)
+library(tibble)
+
+# Load quantmod package for market cap calculation [Lines 247-252]:
+#install.packages("quantmod")
+library(quantmod)
+```
+
+## Write Helper Functions to Extract Data
+
+### Data Parsing Function
+
+```{r fun-parse-func}
+fun_parse <- function(xpath, xmldoc = page.i) {
+  x <- xmldoc %>% 
+    html_nodes(xpath = xpath) %>%
+    html_text(trim = TRUE)
+  if (length(x) == 0 & xpath == '//*[@id="Col1-0-Sustainability-Proxy"]/section/div[2]/div[2]/div[2]/div/div[2]/div[1]/span/span/span') {
+    return("None")
+  }
+  if (grepl("% AUM", x)) {
+    return(as.numeric(sub("% AUM", "", sub("based on ", "", x))) / 100)
+  }
+  if (!grepl("\\d", x)) {
+    return(trimws(x))
+  } else {
+    if (grepl("percentile", x)) {
+      return(x %>% str_replace_all("[^0-9\\.]", "") %>% as.numeric() / 100)
+    } else {
+      if (grepl("updated on", x)) {
+        r <- sub("Last updated on ", "", x)
+        r <- paste(unlist(strsplit(r, "/"))[2], unlist(strsplit(r, "/"))[1], sep = "-")
+        return(anytime::anydate(r))
+      } else {
+        return(as.numeric(x))
+      }
+    }
+  }
+}
+```
+
+### Yahoo “Product Involvement Areas” Helper Function
+
+```{r fun-lists-func}
+fun_lists <- function() {
+  x <- page.i %>%
+    html_nodes(xpath = '//*[@id="Col2-3-InvolvementAreas-Proxy"]/section/table') %>%
+    html_table() %>%
+    data.frame()
+  n <- sum(grepl("Yes", x[, 2]))
+  if (n == 0) return(NA)
+  if (n == 1) return(x[grep("Yes", x[, 2]), 1])
+  if (n >= 2) return(list(x[grep("Yes", x[, 2]), 1]))
+}
+```
+
+### Wrapper Function for robots.txt - paths_allowed() function
+
+```{r fun-robots-func}
+fun_robots <- function(url = link.i) {
+  base_url <- paste0(url_parse(url)$scheme, "://", domain(url))
+  paths_allowed(
+    paths = sub(base_url, "", link.i), 
+    domain = domain(url), 
+    bot = "*"
+  )
+}
+```
+
+### Get Default User Agent
+
+```{r user-agent}
+httr:::default_ua()
+## [1] "libcurl/7.64.1 r-curl/4.3 httr/1.4.2"
+```
+
+### Establish Custom User Agent String Variable
+
+```{r custom-ua}
+var_agent <- "Scott Burstein (scott.burstein@duke.edu). Doing academic research."
+```
+
+# Step 2: Create Data Tables
+
+## Create Companies Data Table
+
+```{r companies-table}
+# Note: ^GSPC is the symbol/ticker for the S&P 500 Index
+wiki_link = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
+dat_stocks <- read_html(wiki_link) %>%
+  html_nodes("table[id='constituents']") %>%
+  html_table() %>%
+  data.frame() %>%
+  as_tibble()
+```
+
+### Inspect Current Column Names
+
+```{r inspect-columns}
+colnames(dat_stocks)
+```
+
+### Rename Columns, Data Cleaning, Etc.
+
+```{r data-cleaning}
+# rename columns
+colnames(dat_stocks) <- c("ticker", "company", "filings", "sector", "industry", "location", "added", "cik", "founded")
+
+# select columns
+dat_stocks <- dat_stocks[, c("ticker", "company", "sector", "industry")]
+
+# rename tickers
+dat_stocks$ticker <- gsub("[.]", "-", dat_stocks$ticker)
+```
+
+### Inspect Data Again
+
+```{r data-inspection}
+head(dat_stocks, 5)
+```
+
+### Create Placeholder Columns for ESG Data (acquired below)
+
+```{r stocks-esg-placeholders}
+dat_stocks$esgRating    <- as.character(NA) # ESG Rating
+dat_stocks$esgScore.tot <- as.integer(NA)   # ESG Score (Total/Overall)
+dat_stocks$esgScore.env <- as.integer(NA)   # ESG Score (Environmental)
+dat_stocks$esgScore.soc <- as.integer(NA)   # ESG Score (Social)
+dat_stocks$esgScore.gov <- as.integer(NA)   # ESG Score (Governance)
+dat_stocks$esgRank.tot  <- as.numeric(NA)   # Percentile Rank (Total/Overall)
+dat_stocks$esgRank.env  <- as.numeric(NA)   # Percentile Rank (Environmental)
+dat_stocks$esgRank.soc  <- as.numeric(NA)   # Percentile Rank (Social)
+dat_stocks$esgRank.gov  <- as.numeric(NA)   # Percentile Rank (Governance)
+dat_stocks$conRating    <- as.character(NA) # Controversy Rating 
+dat_stocks$conLevel     <- as.integer(NA)   # Controversy Level
+dat_stocks$conAreas     <- as.character(NA) # Controversy Areas (Products)
+dat_stocks$asOf         <- Sys.Date()       # Last Updated date
+```
+
+## Create Mutual Funds Data Table
+
+```{r mutual-fund-table}
+# NEED TO LOAD THIS CSV FILE TO CORRECT LOCATION ON YOUR LOCAL COMPUTER FIRST:
+# https://www.kylerudden.com/blog/scraping-esg-scores/dat_funds.csv
+
+# Location for me: 
+dat_funds <- read.csv("dat_funds.csv")
+```
+
+```{r inspect-fund-table}
+head(dat_funds)
+```
+
+### Create Placeholder Columns for ESG Fund Data
+
+```{r fund-esg-placeholders}
+dat_funds$esgRating    <- as.character(NA) # ESG Rating
+dat_funds$esgScore.tot <- as.integer(NA)   # ESS Score (Total/Portfolio)
+dat_funds$esgScore.env <- as.integer(NA)   # ESG Score (Environmental)
+dat_funds$esgScore.soc <- as.integer(NA)   # ESG Score (Social)
+dat_funds$esgScore.gov <- as.integer(NA)   # ESG Score (Governance)
+dat_funds$esgScore.aum <- as.integer(NA)   # ESG Score (% AUM basis)
+dat_funds$esgScore.raw <- as.integer(NA)   # ESG Score (Raw)
+dat_funds$esgScore.ded <- as.integer(NA)   # ESG Score (Controversy Deduction)
+dat_funds$susMandate   <- as.character(NA) # Sustainability Mandate
+dat_funds$susRank.pct  <- as.numeric(NA)   # Sustainability Rank (Percentile)
+dat_funds$susRank.cat  <- as.numeric(NA)   # Sustainability Rank (Category)
+dat_funds$asOf         <- Sys.Date()       # Last Updated date
+```
+
+# Step 3: Download ESG Data:
+
+## Download Companies ESG Data
+
+```{r download-company-esg-data}
+i <- 1
+for (i in 1:nrow(dat_stocks)) {
+  message(paste0(i, " of ", nrow(dat_stocks)))
+  tryCatch({
+    tick.i <- dat_stocks$ticker[i]
+    link.i <- paste0("https://finance.yahoo.com/quote/", tick.i, "/sustainability")
+    bots.i <- suppressMessages(fun_robots(link.i))
+    if (bots.i) {
+      Sys.sleep(runif(1, 0.5, 3.0))
+      page.i <- GET(link.i, user_agent(var_agent)) %>% content()
+      dat_stocks$esgRating[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[1]/div/div[3]/div/span')
+      dat_stocks$esgScore.tot[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[1]/div/div[2]/div[1]')
+      dat_stocks$esgScore.env[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[2]/div/div[2]/div[1]')
+      dat_stocks$esgScore.soc[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[3]/div/div[2]/div[1]')
+      dat_stocks$esgScore.gov[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[4]/div/div[2]/div[1]')
+      dat_stocks$esgRank.tot[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[1]/div/div[2]/div[2]/span/span')
+      dat_stocks$esgRank.env[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[2]/div/div[2]/div[2]/span/span')
+      dat_stocks$esgRank.soc[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[3]/div/div[2]/div[2]/span/span')
+      dat_stocks$esgRank.gov[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[4]/div/div[2]/div[2]/span/span')
+      dat_stocks$conRating[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[2]/div[2]/div[2]/div/div[2]/div[1]/span/span/span')
+      dat_stocks$conLevel[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[2]/div[2]/div[2]/div/div[2]/div[1]/div')
+      dat_stocks$conAreas[i] <- fun_lists()
+      dat_stocks$asOf[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[3]/span[2]/span')
+    }
+  }, error=function(e){})
+}
+dat_stocks$asOf[which(is.na(dat_stocks$esgRating))] <- NA
+```
+
+### Inspect Proportion of Morningstar/Sustainalytics Data Present
+
+```{r}
+scales::percent(sum(!is.na(dat_stocks$esgRating)) / nrow(dat_stocks))
+```
+
+### Add Percentage Market Capitalization Data
+
+```{r percent-market-cap}
+#Using the quantmod library
+dat_stocks$mktCap <- suppressWarnings(
+  quantmod::getQuote(dat_stocks$ticker, what = "marketCap")$marketCap
+)
+```
+
+```{r}
+scales::percent(sum(dat_stocks$mktCap[which(!is.na(dat_stocks$esgRating))]) / sum(dat_stocks$mktCap))
+```
+
+### Save Stocks Dataframe to a .csv File
+
+```{r save-stock-csv}
+write.csv(dat_stocks, 'dat_stocks.csv')
+```
+
+
+## Download Mutual Funds ESG Data
+
+```{r download-fund-esg-data}
+i <- 1
+for (i in 1:nrow(dat_funds)) {
+  message(paste0(i, " of ", nrow(dat_funds)))
+  tryCatch({
+    tick.i <- dat_funds$ticker[i]
+    link.i <- paste0("https://finance.yahoo.com/quote/", tick.i, "/sustainability")
+    bots.i <- suppressMessages(fun_robots(link.i))
+    if (bots.i) {
+      Sys.sleep(runif(1, 0.5, 3.0))
+      page.i <- GET(link.i, user_agent(var_agent)) %>% content()
+      if (grepl("ESG", fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/h3/span'))) {
+        dat_funds$esgRating[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[1]/div/div[3]/div/span')
+        dat_funds$esgScore.tot[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[1]/div/div[2]/div[1]')
+        dat_funds$esgScore.env[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[2]/div/div[2]/div[1]')
+        dat_funds$esgScore.soc[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[3]/div/div[2]/div[1]')
+        dat_funds$esgScore.gov[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[1]/div/div[4]/div/div[2]/div[1]')
+        dat_funds$esgScore.aum[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[2]/div[2]/div[2]/div[2]/div[1]/div[2]/span')
+        dat_funds$esgScore.raw[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[2]/div[2]/div[2]/div[2]/div[3]')
+        dat_funds$esgScore.ded[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[2]/div[2]/div[2]/div[3]/div[3]')
+        dat_funds$susMandate[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[3]/div/span/span/span')
+        dat_funds$susRank.pct[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[3]/p[1]/span/span') / 100
+        dat_funds$susRank.cat[i] <- page.i %>%
+          html_nodes(xpath = '//*[@id="Col1-0-Sustainability-Proxy"]/section/div[3]/p[2]/span/span') %>%
+          html_text(trim = TRUE)
+        dat_funds$asOf[i] <- fun_parse('//*[@id="Col1-0-Sustainability-Proxy"]/section/div[4]/span[2]/span')
+
+      }
+    }
+  }, error=function(e){})
+}
+dat_funds$asOf[which(is.na(dat_funds$esgRating))] <- NA
+```
+
+### Inspect Raw Score and Controversy Deduction
+
+```{r raw-ded-comparison}
+dat_funds$esgScore.tot - (dat_funds$esgScore.raw + dat_funds$esgScore.ded)
+```
+
+# Step 4: Initial Analysis
+
+### Stocks Data Summary
+
+```{r stocks-data-summary}
+stock_look <- subset(dat_stocks, !is.na(esgRating)) %>%
+  group_by(sector) %>%
+  summarise(
+    esgScore.tot = ceiling(mean(esgScore.tot)),
+    esgScore.env = ceiling(mean(esgScore.env)),
+    esgScore.soc = ceiling(mean(esgScore.soc)),
+    esgScore.gov = ceiling(mean(esgScore.gov)),
+  ) %>%
+  ungroup()
+
+stock_look <- stock_look[order(stock_look$esgScore.tot, decreasing = TRUE), ]
+stock_look
+```
+
+### Funds Data Summary
+
+```{r funds-data-summary}
+fund_look <- subset(dat_funds, !is.na(esgRating)) %>%
+  group_by(familyName) %>%
+  summarise(
+    esgScore.tot = ceiling(mean(esgScore.tot)),
+    esgScore.env = ceiling(mean(esgScore.env)),
+    esgScore.soc = ceiling(mean(esgScore.soc)),
+    esgScore.gov = ceiling(mean(esgScore.gov)),
+  ) %>%
+  ungroup()
+fund_look <- fund_look[order(fund_look$esgScore.tot, decreasing = TRUE), ]
+fund_look
+```
+
+# Reference Cited:
+
+https://www.kylerudden.com/blog/scraping-esg-scores/
