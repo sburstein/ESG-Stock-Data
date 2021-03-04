@@ -1,0 +1,506 @@
+"","ticker","company","sector","industry","esgRating","esgScore.tot","esgScore.env","esgScore.soc","esgScore.gov","esgRank.tot","esgRank.env","esgRank.soc","esgRank.gov","conRating","conLevel","conAreas","asOf","mktCap"
+"1","MMM","3M Company","Industrials","Industrial Conglomerates","High",35,12.8,14,8.4,0.74,NA,NA,NA,NA,NA,NA,2021-03-03,102564405248
+"2","ABT","Abbott Laboratories","Health Care","Health Care Equipment","Medium",30,3,16.2,10.6,0.56,NA,NA,NA,NA,NA,NA,2021-03-03,217065570304
+"3","ABBV","AbbVie Inc.","Health Care","Pharmaceuticals","Medium",29,0.6,17.1,11.3,0.54,NA,NA,NA,NA,NA,NA,2021-03-03,190450155520
+"4","ABMD","Abiomed","Health Care","Health Care Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14714096640
+"5","ACN","Accenture","Information Technology","IT Consulting & Other Services","Low",11,0.6,5,5.8,0.02,NA,NA,NA,NA,NA,NA,2021-03-03,171386028032
+"6","ATVI","Activision Blizzard","Communication Services","Interactive Home Entertainment","Low",17,0.2,10.7,6.2,0.12,NA,NA,NA,NA,NA,NA,2021-03-03,74957447168
+"7","ADBE","Adobe Inc.","Information Technology","Application Software","Low",11,0.5,5.7,4.7,0.02,NA,NA,NA,NA,NA,NA,2021-03-03,223356633088
+"8","AMD","Advanced Micro Devices","Information Technology","Semiconductors",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,101908357120
+"9","AAP","Advance Auto Parts","Consumer Discretionary","Automotive Retail","Low",12,0.1,8.7,3.3,0.03,NA,NA,NA,NA,NA,NA,2021-03-03,10801041408
+"10","AES","AES Corp","Utilities","Independent Power Producers & Energy Traders","High",33,18.8,8.8,5.8,0.69,NA,NA,NA,NA,NA,NA,2021-03-03,17841518592
+"11","AFL","Aflac","Financials","Life & Health Insurance","Medium",23,2.5,7.9,12.9,0.32,NA,NA,NA,NA,NA,NA,2021-03-03,33492871168
+"12","A","Agilent Technologies","Health Care","Health Care Equipment","Low",17,0.9,9.4,6.3,0.11,NA,NA,NA,NA,NA,NA,2021-03-03,37758296064
+"13","APD","Air Products & Chemicals","Materials","Industrial Gases","Low",11,6.1,1.4,3.7,0.02,NA,NA,NA,NA,NA,NA,2021-03-03,58859679744
+"14","AKAM","Akamai Technologies","Information Technology","Internet Services & Infrastructure","Medium",21,2,11.8,7.5,0.25,NA,NA,NA,NA,NA,NA,2021-03-03,15646269440
+"15","ALK","Alaska Air Group","Industrials","Airlines",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8090098688
+"16","ALB","Albemarle Corporation","Materials","Specialty Chemicals","High",37,19.1,8.9,8.7,0.78,NA,NA,NA,NA,NA,NA,2021-03-03,17928671232
+"17","ARE","Alexandria Real Estate Equities","Real Estate","Office REITs","Low",15,2,7.4,6,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,21987067904
+"18","ALXN","Alexion Pharmaceuticals","Health Care","Pharmaceuticals","Low",19,0.1,12,6.8,0.17,NA,NA,NA,NA,NA,NA,2021-03-03,33058543616
+"19","ALGN","Align Technology","Health Care","Health Care Supplies",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44568330240
+"20","ALLE","Allegion","Industrials","Building Products","Medium",22,11.1,4.2,6.6,0.27,NA,NA,NA,NA,NA,NA,2021-03-03,10233696256
+"21","LNT","Alliant Energy","Utilities","Electric Utilities","Medium",28,14.7,7.4,6.3,0.51,NA,NA,NA,NA,NA,NA,2021-03-03,11771893760
+"22","ALL","Allstate Corp","Financials","Property & Casualty Insurance","Medium",23,1.6,8.7,12.7,0.31,NA,NA,NA,NA,NA,NA,2021-03-03,33464436736
+"23","GOOGL","Alphabet Inc. (Class A)","Communication Services","Interactive Media & Services","Medium",23,0.5,9.9,12.5,0.31,NA,NA,NA,NA,NA,NA,2021-03-03,1395462504448
+"24","GOOG","Alphabet Inc. (Class C)","Communication Services","Interactive Media & Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1395462766592
+"25","MO","Altria Group Inc","Consumer Staples","Tobacco","Medium",25,5.8,13,6.5,0.4,NA,NA,NA,NA,NA,NA,2021-03-03,83120619520
+"26","AMZN","Amazon.com Inc.","Consumer Discretionary","Internet & Direct Marketing Retail","Medium",27,5.1,12.5,9.8,0.47,NA,NA,NA,NA,NA,NA,2021-03-03,1558297051136
+"27","AMCR","Amcor","Materials","Paper Packaging",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,17853431808
+"28","AEE","Ameren Corp","Utilities","Multi-Utilities","High",34,15.5,12.2,6.4,0.71,NA,NA,NA,NA,NA,NA,2021-03-03,18218760192
+"29","AAL","American Airlines Group","Industrials","Airlines","Medium",30,11.7,12.6,5.6,0.57,NA,NA,NA,NA,NA,NA,2021-03-03,13714654208
+"30","AEP","American Electric Power","Utilities","Electric Utilities","High",34,19.3,9.8,5.3,0.72,NA,NA,NA,NA,NA,NA,2021-03-03,37965373440
+"31","AXP","American Express","Financials","Consumer Finance","Low",20,0.1,9.9,9.8,0.2,NA,NA,NA,NA,NA,NA,2021-03-03,112178266112
+"32","AIG","American International Group","Financials","Property & Casualty Insurance","High",31,2,13.6,15.2,0.6,NA,NA,NA,NA,NA,NA,2021-03-03,39745794048
+"33","AMT","American Tower Corp.","Real Estate","Specialized REITs","Low",12,3.7,3.8,5,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,92791824384
+"34","AWK","American Water Works","Utilities","Water Utilities","Medium",29,13.4,10,5.7,0.53,NA,NA,NA,NA,NA,NA,2021-03-03,25336143872
+"35","AMP","Ameriprise Financial","Financials","Asset Management & Custody Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26361434112
+"36","ABC","AmerisourceBergen","Health Care","Health Care Distributors","Negligible",13,1,6,6,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,21340600320
+"37","AME","Ametek","Industrials","Electrical Components & Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28218728448
+"38","AMGN","Amgen Inc.","Health Care","Biotechnology",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,130350874624
+"39","APH","Amphenol Corp","Information Technology","Electronic Components",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38654418944
+"40","ADI","Analog Devices, Inc.","Information Technology","Semiconductors",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,56916656128
+"41","ANSS","ANSYS, Inc.","Information Technology","Application Software","Negligible",15,1,9,5,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,29177231360
+"42","ANTM","Anthem","Health Care","Managed Health Care","Negligible",12,0,7,5,0.03,NA,NA,NA,NA,NA,NA,2021-03-03,76327403520
+"43","AON","Aon plc","Financials","Insurance Brokers",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,52548059136
+"44","AOS","A.O. Smith Corp","Industrials","Building Products","Severe",33,10,15,8,0.66,NA,NA,NA,NA,NA,NA,2021-03-03,9855759360
+"45","APA","APA Corporation","Energy","Oil & Gas Exploration & Production","Severe",39,22,9,8,0.83,NA,NA,NA,NA,NA,NA,2021-03-03,7368289280
+"46","AAPL","Apple Inc.","Information Technology","Technology Hardware, Storage & Peripherals","Negligible",17,0,8,9,0.11,NA,NA,NA,NA,NA,NA,2021-03-03,2100527104000
+"47","AMAT","Applied Materials Inc.","Information Technology","Semiconductor Equipment","Negligible",15,5,4,6,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,107825168384
+"48","APTV","Aptiv PLC","Consumer Discretionary","Auto Parts & Equipment","Negligible",14,4,5,6,0.06,NA,NA,NA,NA,NA,NA,2021-03-03,41640554496
+"49","ADM","Archer-Daniels-Midland Co","Consumer Staples","Agricultural Products","Severe",34,16,13,5,0.71,NA,NA,NA,NA,NA,NA,2021-03-03,32036210688
+"50","ANET","Arista Networks","Information Technology","Communications Equipment","Negligible",18,0,9,8,0.14,NA,NA,NA,NA,NA,NA,2021-03-03,21701072896
+"51","AJG","Arthur J. Gallagher & Co.","Financials","Insurance Brokers",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23578157056
+"52","AIZ","Assurant","Financials","Multi-line Insurance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7332848640
+"53","T","AT&T Inc.","Communication Services","Integrated Telecommunication Services","Negligible",19,2,11,6,0.18,NA,NA,NA,NA,NA,NA,2021-03-03,201258270720
+"54","ATO","Atmos Energy","Utilities","Gas Utilities","Severe",36,14,14,7,0.75,NA,NA,NA,NA,NA,NA,2021-03-03,11180765184
+"55","ADSK","Autodesk Inc.","Information Technology","Application Software","Negligible",15,1,9,5,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,61111549952
+"56","ADP","Automatic Data Processing","Information Technology","Data Processing & Outsourced Services","Negligible",13,0,7,6,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,74863820800
+"57","AZO","AutoZone Inc","Consumer Discretionary","Specialty Stores","Negligible",12,0,8,4,0.03,NA,NA,NA,NA,NA,NA,2021-03-03,26855737344
+"58","AVB","AvalonBay Communities","Real Estate","Residential REITs","Negligible",12,3,3,5,0.03,NA,NA,NA,NA,NA,NA,2021-03-03,24866502656
+"59","AVY","Avery Dennison Corp","Materials","Paper Packaging","Negligible",18,12,2,4,0.16,NA,NA,NA,NA,NA,NA,2021-03-03,14699618304
+"60","BKR","Baker Hughes Co","Energy","Oil & Gas Equipment & Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25354549248
+"61","BLL","Ball Corp","Materials","Metal & Glass Containers","Negligible",15,10,1,4,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,28316495872
+"62","BAC","Bank of America Corp","Financials","Diversified Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,306737250304
+"63","BK","The Bank of New York Mellon","Financials","Asset Management & Custody Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38312845312
+"64","BAX","Baxter International Inc.","Health Care","Health Care Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39236476928
+"65","BDX","Becton Dickinson","Health Care","Health Care Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,71108747264
+"66","BRK-B","Berkshire Hathaway","Financials","Multi-Sector Holdings","Negligible",17,1,4,12,0.12,NA,NA,NA,NA,NA,NA,2021-03-03,575080169472
+"67","BBY","Best Buy Co. Inc.","Consumer Discretionary","Computer & Electronics Retail","Negligible",12,2,5,5,0.03,NA,NA,NA,NA,NA,NA,2021-03-03,26547040256
+"68","BIO","Bio-Rad Laboratories","Health Care","Life Sciences Tools & Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,17661454336
+"69","BIIB","Biogen Inc.","Health Care","Biotechnology",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41107869696
+"70","BLK","BlackRock","Financials","Asset Management & Custody Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,109333258240
+"71","BA","Boeing Company","Industrials","Aerospace & Defense","Severe",36,8,20,9,0.77,NA,NA,NA,NA,NA,NA,2021-03-03,130089951232
+"72","BKNG","Booking Holdings Inc","Consumer Discretionary","Internet & Direct Marketing Retail","Negligible",20,4,10,6,0.2,NA,NA,NA,NA,NA,NA,2021-03-03,93483425792
+"73","BWA","BorgWarner","Consumer Discretionary","Auto Parts & Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11047550976
+"74","BXP","Boston Properties","Real Estate","Office REITs","Negligible",14,4,5,5,0.06,NA,NA,NA,NA,NA,NA,2021-03-03,15797170176
+"75","BSX","Boston Scientific","Health Care","Health Care Equipment","Severe",31,3,16,11,0.6,NA,NA,NA,NA,NA,NA,2021-03-03,54892687360
+"76","BMY","Bristol-Myers Squibb","Health Care","Health Care Distributors",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,137274212352
+"77","AVGO","Broadcom Inc.","Information Technology","Semiconductors",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,196156669952
+"78","BR","Broadridge Financial Solutions","Information Technology","Data Processing & Outsourced Services","Negligible",15,0,8,7,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,16656527360
+"79","BF-B","Brown-Forman Corp.","Consumer Staples","Distillers & Vintners",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33728393216
+"80","CHRW","C. H. Robinson Worldwide","Industrials","Air Freight & Logistics",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12460853248
+"81","COG","Cabot Oil & Gas","Energy","Oil & Gas Exploration & Production",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7497113600
+"82","CDNS","Cadence Design Systems","Information Technology","Application Software","Negligible",17,1,10,5,0.12,NA,NA,NA,NA,NA,NA,2021-03-03,39656153088
+"83","CPB","Campbell Soup","Consumer Staples","Packaged Foods & Meats",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13820350464
+"84","COF","Capital One Financial","Financials","Consumer Finance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,56697397248
+"85","CAH","Cardinal Health Inc.","Health Care","Health Care Distributors","Negligible",13,3,5,4,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,15555594240
+"86","KMX","Carmax Inc","Consumer Discretionary","Specialty Stores","Negligible",13,0,9,4,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,19664209920
+"87","CCL","Carnival Corp.","Consumer Discretionary","Hotels, Resorts & Cruise Lines",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31915286528
+"88","CARR","Carrier Global","Industrials","Building Products",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,32282570752
+"89","CTLT","Catalent","Health Care","Pharmaceuticals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19366725632
+"90","CAT","Caterpillar Inc.","Industrials","Construction Machinery & Heavy Trucks","Severe",39,11,20,9,0.83,NA,NA,NA,NA,NA,NA,2021-03-03,117687517184
+"91","CBOE","Cboe Global Markets","Financials","Financial Exchanges & Data","Negligible",19,3,7,9,0.17,NA,NA,NA,NA,NA,NA,2021-03-03,10465840128
+"92","CBRE","CBRE Group","Real Estate","Real Estate Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26173208576
+"93","CDW","CDW","Information Technology","Technology Distributors","Negligible",11,4,3,4,0.02,NA,NA,NA,NA,NA,NA,2021-03-03,22149687296
+"94","CE","Celanese","Materials","Specialty Chemicals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16294770688
+"95","CNC","Centene Corporation","Health Care","Managed Health Care",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34395410432
+"96","CNP","CenterPoint Energy","Utilities","Multi-Utilities","Severe",36,18,12,6,0.75,NA,NA,NA,NA,NA,NA,2021-03-03,10794421248
+"97","CERN","Cerner","Health Care","Health Care Technology","Negligible",20,0,13,7,0.2,NA,NA,NA,NA,NA,NA,2021-03-03,21321125888
+"98","CF","CF Industries Holdings Inc","Materials","Fertilizers & Agricultural Chemicals","Severe",33,19,9,5,0.67,NA,NA,NA,NA,NA,NA,2021-03-03,9853501440
+"99","SCHW","Charles Schwab Corporation","Financials","Investment Banking & Brokerage",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,120093286400
+"100","CHTR","Charter Communications","Communication Services","Cable & Satellite",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,119351861248
+"101","CVX","Chevron Corp.","Energy","Integrated Oil & Gas",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,197338382336
+"102","CMG","Chipotle Mexican Grill","Consumer Discretionary","Restaurants",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,41528586240
+"103","CB","Chubb Limited","Financials","Property & Casualty Insurance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75462213632
+"104","CHD","Church & Dwight","Consumer Staples","Household Products",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19414763520
+"105","CI","Cigna","Health Care","Managed Health Care","Negligible",14,0,8,6,0.06,NA,NA,NA,NA,NA,NA,2021-03-03,76953837568
+"106","CINF","Cincinnati Financial","Financials","Property & Casualty Insurance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16116976640
+"107","CTAS","Cintas Corporation","Industrials","Diversified Support Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35962269696
+"108","CSCO","Cisco Systems","Information Technology","Communications Equipment","Negligible",13,1,6,6,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,192154763264
+"109","C","Citigroup Inc.","Financials","Diversified Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,143837233152
+"110","CFG","Citizens Financial Group","Financials","Regional Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18900211712
+"111","CTXS","Citrix Systems","Information Technology","Application Software","Negligible",18,1,11,6,0.15,NA,NA,NA,NA,NA,NA,2021-03-03,16811637760
+"112","CLX","The Clorox Company","Consumer Staples","Household Products",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22519105536
+"113","CME","CME Group Inc.","Financials","Financial Exchanges & Data","Negligible",15,2,7,6,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,74185211904
+"114","CMS","CMS Energy","Utilities","Multi-Utilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15857192960
+"115","KO","Coca-Cola Company","Consumer Staples","Soft Drinks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,215896424448
+"116","CTSH","Cognizant Technology Solutions","Information Technology","IT Consulting & Other Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39769518080
+"117","CL","Colgate-Palmolive","Consumer Staples","Household Products",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,63998619648
+"118","CMCSA","Comcast Corp.","Communication Services","Cable & Satellite","Negligible",19,1,9,9,0.19,NA,NA,NA,NA,NA,NA,2021-03-03,248500813824
+"119","CMA","Comerica Inc.","Financials","Diversified Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9743054848
+"120","CAG","Conagra Brands","Consumer Staples","Packaged Foods & Meats","Severe",32,10,16,5,0.64,NA,NA,NA,NA,NA,NA,2021-03-03,16763146240
+"121","COP","ConocoPhillips","Energy","Oil & Gas Exploration & Production","Severe",35,19,10,7,0.75,NA,NA,NA,NA,NA,NA,2021-03-03,70825279488
+"122","ED","Consolidated Edison","Utilities","Electric Utilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22969466880
+"123","STZ","Constellation Brands","Consumer Staples","Distillers & Vintners",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42357530624
+"124","COO","The Cooper Companies","Health Care","Health Care Supplies",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19063592960
+"125","CPRT","Copart Inc","Industrials","Diversified Support Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25893253120
+"126","GLW","Corning Inc.","Information Technology","Electronic Components","Negligible",20,8,5,7,0.21,NA,NA,NA,NA,NA,NA,2021-03-03,29766578176
+"127","CTVA","Corteva","Materials","Fertilizers & Agricultural Chemicals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34063157248
+"128","COST","Costco Wholesale Corp.","Consumer Staples","Hypermarkets & Super Centers",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,145493000192
+"129","CCI","Crown Castle","Real Estate","Specialized REITs","Negligible",18,9,4,5,0.16,NA,NA,NA,NA,NA,NA,2021-03-03,66059747328
+"130","CSX","CSX Corp.","Industrials","Railroads","Negligible",18,5,9,4,0.16,NA,NA,NA,NA,NA,NA,2021-03-03,70272466944
+"131","CMI","Cummins Inc.","Industrials","Industrial Machinery","Negligible",18,4,8,6,0.14,NA,NA,NA,NA,NA,NA,2021-03-03,38048514048
+"132","CVS","CVS Health","Health Care","Health Care Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,90404470784
+"133","DHI","D. R. Horton","Consumer Discretionary","Homebuilding",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28652443648
+"134","DHR","Danaher Corp.","Health Care","Health Care Equipment","Severe",33,5,18,10,0.67,NA,NA,NA,NA,NA,NA,2021-03-03,159597805568
+"135","DRI","Darden Restaurants","Consumer Discretionary","Restaurants",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18110380032
+"136","DVA","DaVita Inc.","Health Care","Health Care Facilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11270221824
+"137","DE","Deere & Co.","Industrials","Agricultural & Farm Machinery","Negligible",18,4,9,4,0.14,NA,NA,NA,NA,NA,NA,2021-03-03,110155005952
+"138","DAL","Delta Air Lines Inc.","Industrials","Airlines",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,30777829376
+"139","XRAY","Dentsply Sirona","Health Care","Health Care Supplies",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12953755648
+"140","DVN","Devon Energy","Energy","Oil & Gas Exploration & Production","Severe",34,18,9,8,0.7,NA,NA,NA,NA,NA,NA,2021-03-03,15131288576
+"141","DXCM","DexCom","Health Care","Health Care Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37692887040
+"142","FANG","Diamondback Energy","Energy","Oil & Gas Exploration & Production",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11220716544
+"143","DLR","Digital Realty Trust Inc","Real Estate","Specialized REITs","Negligible",14,3,5,5,0.06,NA,NA,NA,NA,NA,NA,2021-03-03,36860583936
+"144","DFS","Discover Financial Services","Financials","Consumer Finance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29608046592
+"145","DISCA","Discovery, Inc. (Series A)","Communication Services","Broadcasting","Negligible",18,0,9,9,0.16,NA,NA,NA,NA,NA,NA,2021-03-03,25621063680
+"146","DISCK","Discovery, Inc. (Series C)","Communication Services","Broadcasting",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25621069824
+"147","DISH","Dish Network","Communication Services","Cable & Satellite",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,17410965504
+"148","DG","Dollar General","Consumer Discretionary","General Merchandise Stores","Negligible",17,3,8,5,0.12,NA,NA,NA,NA,NA,NA,2021-03-03,45692686336
+"149","DLTR","Dollar Tree","Consumer Discretionary","General Merchandise Stores","Negligible",18,3,9,6,0.14,NA,NA,NA,NA,NA,NA,2021-03-03,23272247296
+"150","D","Dominion Energy","Utilities","Electric Utilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,56234233856
+"151","DPZ","Domino's Pizza","Consumer Discretionary","Restaurants",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13309988864
+"152","DOV","Dover Corporation","Industrials","Industrial Machinery",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18264969216
+"153","DOW","Dow Inc.","Materials","Commodity Chemicals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,46665789440
+"154","DTE","DTE Energy Co.","Utilities","Multi-Utilities","Severe",31,16,9,6,0.61,NA,NA,NA,NA,NA,NA,2021-03-03,22859520000
+"155","DUK","Duke Energy","Utilities","Electric Utilities","Severe",33,16,12,6,0.67,NA,NA,NA,NA,NA,NA,2021-03-03,67058245632
+"156","DRE","Duke Realty Corp","Real Estate","Industrial REITs","Negligible",16,6,6,5,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,14513335296
+"157","DD","DuPont de Nemours Inc","Materials","Specialty Chemicals","Severe",30,14,9,7,0.59,NA,NA,NA,NA,NA,NA,2021-03-03,39269740544
+"158","DXC","DXC Technology","Information Technology","IT Consulting & Other Services","Negligible",13,1,7,5,0.05,NA,NA,NA,NA,NA,NA,2021-03-03,6545611264
+"159","EMN","Eastman Chemical","Materials","Diversified Chemicals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15398598656
+"160","ETN","Eaton Corporation","Industrials","Electrical Components & Equipment","Negligible",17,5,6,6,0.13,NA,NA,NA,NA,NA,NA,2021-03-03,53333458944
+"161","EBAY","eBay Inc.","Consumer Discretionary","Internet & Direct Marketing Retail",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38778617856
+"162","ECL","Ecolab Inc.","Materials","Specialty Chemicals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,60468703232
+"163","EIX","Edison Int'l","Utilities","Electric Utilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20822638592
+"164","EW","Edwards Lifesciences","Health Care","Health Care Equipment","Negligible",19,3,9,7,0.18,NA,NA,NA,NA,NA,NA,2021-03-03,53883498496
+"165","EA","Electronic Arts","Communication Services","Interactive Home Entertainment","Negligible",13,0,7,5,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,39352987648
+"166","EMR","Emerson Electric Company","Industrials","Electrical Components & Equipment","Severe",31,9,14,8,0.6,NA,NA,NA,NA,NA,NA,2021-03-03,52580630528
+"167","ENPH","Enphase Energy","Information Technology","Semiconductor Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22972637184
+"168","ETR","Entergy Corp.","Utilities","Electric Utilities","Severe",35,15,14,6,0.74,NA,NA,NA,NA,NA,NA,2021-03-03,17794605056
+"169","EOG","EOG Resources","Energy","Oil & Gas Exploration & Production","Severe",39,20,11,8,0.83,NA,NA,NA,NA,NA,NA,2021-03-03,37622308864
+"170","EFX","Equifax Inc.","Industrials","Research & Consulting Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20227768320
+"171","EQIX","Equinix","Real Estate","Specialized REITs","Negligible",16,5,5,5,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,57148723200
+"172","EQR","Equity Residential","Real Estate","Residential REITs","Negligible",14,5,4,5,0.06,NA,NA,NA,NA,NA,NA,2021-03-03,24968421376
+"173","ESS","Essex Property Trust, Inc.","Real Estate","Residential REITs","Negligible",16,4,5,6,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,17013609472
+"174","EL","Estée Lauder Companies","Consumer Staples","Personal Products",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,105033244672
+"175","ETSY","Etsy","Consumer Discretionary","Internet & Direct Marketing Retail",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,30053861376
+"176","EVRG","Evergy","Utilities","Electric Utilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12166520832
+"177","ES","Eversource Energy","Utilities","Multi-Utilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27687202816
+"178","RE","Everest Re Group Ltd.","Financials","Reinsurance","Negligible",18,1,7,10,0.15,NA,NA,NA,NA,NA,NA,2021-03-03,9672929280
+"179","EXC","Exelon Corp.","Utilities","Multi-Utilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38379847680
+"180","EXPE","Expedia Group","Consumer Discretionary","Internet & Direct Marketing Retail",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,23057242112
+"181","EXPD","Expeditors","Industrials","Air Freight & Logistics","Negligible",18,4,9,5,0.15,NA,NA,NA,NA,NA,NA,2021-03-03,15995398144
+"182","EXR","Extra Space Storage","Real Estate","Specialized REITs","Negligible",14,4,4,6,0.06,NA,NA,NA,NA,NA,NA,2021-03-03,16457375744
+"183","XOM","Exxon Mobil Corp.","Energy","Integrated Oil & Gas","Severe",32,16,9,8,0.65,NA,NA,NA,NA,NA,NA,2021-03-03,237371211776
+"184","FFIV","F5 Networks","Information Technology","Communications Equipment","Negligible",18,1,11,5,0.15,NA,NA,NA,NA,NA,NA,2021-03-03,11846817792
+"185","FB","Facebook, Inc.","Communication Services","Interactive Media & Services","Severe",32,1,18,12,0.63,NA,NA,NA,NA,NA,NA,2021-03-03,737546534912
+"186","FAST","Fastenal Co","Industrials","Building Products",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27269709824
+"187","FRT","Federal Realty Investment Trust","Real Estate","Retail REITs","Negligible",13,2,5,6,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,7793750016
+"188","FDX","FedEx Corporation","Industrials","Air Freight & Logistics",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,68812431360
+"189","FIS","Fidelity National Information Services","Information Technology","Data Processing & Outsourced Services","Negligible",19,0,12,7,0.17,NA,NA,NA,NA,NA,NA,2021-03-03,86293454848
+"190","FITB","Fifth Third Bancorp","Financials","Regional Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25619433472
+"191","FE","FirstEnergy Corp","Utilities","Electric Utilities","Severe",35,17,10,7,0.72,NA,NA,NA,NA,NA,NA,2021-03-03,17822883840
+"192","FRC","First Republic Bank","Financials","Regional Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28835395584
+"193","FISV","Fiserv Inc","Information Technology","Data Processing & Outsourced Services","Negligible",20,0,12,7,0.19,NA,NA,NA,NA,NA,NA,2021-03-03,77443129344
+"194","FLT","FleetCor Technologies Inc","Information Technology","Data Processing & Outsourced Services","Negligible",19,0,11,7,0.16,NA,NA,NA,NA,NA,NA,2021-03-03,23643516928
+"195","FLIR","FLIR Systems","Information Technology","Electronic Equipment & Instruments",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7071103488
+"196","FLS","Flowserve Corporation","Industrials","Industrial Machinery","Severe",38,12,19,8,0.81,NA,NA,NA,NA,NA,NA,2021-03-03,4927038464
+"197","FMC","FMC Corporation","Materials","Fertilizers & Agricultural Chemicals","Severe",39,18,14,7,0.82,NA,NA,NA,NA,NA,NA,2021-03-03,13649433600
+"198","F","Ford Motor Company","Consumer Discretionary","Automobile Manufacturers","Severe",31,10,12,10,0.62,NA,NA,NA,NA,NA,NA,2021-03-03,49932562432
+"199","FTNT","Fortinet","Information Technology","Systems Software",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28289161216
+"200","FTV","Fortive Corp","Industrials","Industrial Machinery","Severe",35,15,14,6,0.75,NA,NA,NA,NA,NA,NA,2021-03-03,23019388928
+"201","FBHS","Fortune Brands Home & Security","Industrials","Building Products",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11817116672
+"202","FOXA","Fox Corporation (Class A)","Communication Services","Movies & Entertainment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21924360192
+"203","FOX","Fox Corporation (Class B)","Communication Services","Movies & Entertainment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21924347904
+"204","BEN","Franklin Resources","Financials","Asset Management & Custody Banks","Negligible",20,1,10,8,0.2,NA,NA,NA,NA,NA,NA,2021-03-03,13625691136
+"205","FCX","Freeport-McMoRan Inc.","Materials","Copper","Severe",38,19,13,6,0.8,NA,NA,NA,NA,NA,NA,2021-03-03,51362799616
+"206","GPS","Gap Inc.","Consumer Discretionary","Apparel Retail","Negligible",13,1,7,6,0.05,NA,NA,NA,NA,NA,NA,2021-03-03,9623766016
+"207","GRMN","Garmin Ltd.","Consumer Discretionary","Consumer Electronics","Negligible",20,6,9,5,0.19,NA,NA,NA,NA,NA,NA,2021-03-03,24331433984
+"208","IT","Gartner Inc","Information Technology","IT Consulting & Other Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16259990528
+"209","GD","General Dynamics","Industrials","Aerospace & Defense","Severe",38,10,20,8,0.8,NA,NA,NA,NA,NA,NA,2021-03-03,48000913408
+"210","GE","General Electric","Industrials","Industrial Conglomerates",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,113807851520
+"211","GIS","General Mills","Consumer Staples","Packaged Foods & Meats",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33671835648
+"212","GM","General Motors","Consumer Discretionary","Automobile Manufacturers","Severe",31,10,13,8,0.59,NA,NA,NA,NA,NA,NA,2021-03-03,77967638528
+"213","GPC","Genuine Parts","Consumer Discretionary","Specialty Stores","Negligible",13,4,5,4,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,15767473152
+"214","GILD","Gilead Sciences","Health Care","Biotechnology",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,79177728000
+"215","GL","Globe Life Inc.","Financials","Life & Health Insurance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9921364992
+"216","GPN","Global Payments Inc.","Information Technology","Data Processing & Outsourced Services","Negligible",18,0,11,7,0.16,NA,NA,NA,NA,NA,NA,2021-03-03,59668615168
+"217","GS","Goldman Sachs Group","Financials","Investment Banking & Brokerage",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,114437062656
+"218","GWW","Grainger (W.W.) Inc.","Industrials","Industrial Machinery","Negligible",15,3,6,6,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,20199213056
+"219","HAL","Halliburton Co.","Energy","Oil & Gas Equipment & Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19798745088
+"220","HBI","Hanesbrands Inc","Consumer Discretionary","Apparel, Accessories & Luxury Goods","Negligible",15,1,7,6,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,6379643392
+"221","HIG","Hartford Financial Svc.Gp.","Financials","Property & Casualty Insurance","Negligible",19,2,7,10,0.17,NA,NA,NA,NA,NA,NA,2021-03-03,18447720448
+"222","HAS","Hasbro Inc.","Consumer Discretionary","Leisure Products","Negligible",12,0,7,6,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,13088272384
+"223","HCA","HCA Healthcare","Health Care","Health Care Facilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,60566589440
+"224","PEAK","Healthpeak Properties","Real Estate","Health Care REITs","Negligible",11,3,3,4,0.02,NA,NA,NA,NA,NA,NA,2021-03-03,16036682752
+"225","HSIC","Henry Schein","Health Care","Health Care Distributors","Negligible",15,4,6,6,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,8963834880
+"226","HSY","The Hershey Company","Consumer Staples","Packaged Foods & Meats",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,30111580160
+"227","HES","Hess Corporation","Energy","Integrated Oil & Gas",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19871270912
+"228","HPE","Hewlett Packard Enterprise","Information Technology","Technology Hardware, Storage & Peripherals","Negligible",17,1,10,7,0.13,NA,NA,NA,NA,NA,NA,2021-03-03,18863048704
+"229","HLT","Hilton Worldwide Holdings Inc","Consumer Discretionary","Hotels, Resorts & Cruise Lines","Negligible",20,8,8,4,0.2,NA,NA,NA,NA,NA,NA,2021-03-03,34492792832
+"230","HFC","HollyFrontier Corp","Energy","Oil & Gas Refining & Marketing","Severe",34,21,8,5,0.69,NA,NA,NA,NA,NA,NA,2021-03-03,6006107136
+"231","HOLX","Hologic","Health Care","Health Care Equipment","Severe",31,4,14,12,0.59,NA,NA,NA,NA,NA,NA,2021-03-03,19278270464
+"232","HD","Home Depot","Consumer Discretionary","Home Improvement Retail","Negligible",12,3,5,4,0.03,NA,NA,NA,NA,NA,NA,2021-03-03,280228233216
+"233","HON","Honeywell Int'l Inc.","Industrials","Industrial Conglomerates","Severe",31,10,12,9,0.6,NA,NA,NA,NA,NA,NA,2021-03-03,143676588032
+"234","HRL","Hormel Foods Corp.","Consumer Staples","Packaged Foods & Meats",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25289760768
+"235","HST","Host Hotels & Resorts","Real Estate","Hotel & Resort REITs","Negligible",14,4,6,5,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,11292893184
+"236","HWM","Howmet Aerospace","Industrials","Aerospace & Defense",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12566162432
+"237","HPQ","HP Inc.","Information Technology","Technology Hardware, Storage & Peripherals","Negligible",11,0,5,6,0.02,NA,NA,NA,NA,NA,NA,2021-03-03,37447864320
+"238","HUM","Humana Inc.","Health Care","Managed Health Care",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,49779388416
+"239","HBAN","Huntington Bancshares","Financials","Regional Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16011514880
+"240","HII","Huntington Ingalls Industries","Industrials","Aerospace & Defense",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7242106880
+"241","IEX","IDEX Corporation","Industrials","Industrial Machinery","Severe",34,10,16,8,0.7,NA,NA,NA,NA,NA,NA,2021-03-03,15160484864
+"242","IDXX","Idexx Laboratories","Health Care","Health Care Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45230551040
+"243","INFO","IHS Markit","Industrials","Research & Consulting Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36379385856
+"244","ITW","Illinois Tool Works","Industrials","Industrial Machinery","Negligible",19,4,9,6,0.19,NA,NA,NA,NA,NA,NA,2021-03-03,65390706688
+"245","ILMN","Illumina Inc","Health Care","Life Sciences Tools & Services","Negligible",11,1,4,6,0.02,NA,NA,NA,NA,NA,NA,2021-03-03,64343359488
+"246","INCY","Incyte","Health Care","Biotechnology",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,17270943744
+"247","IR","Ingersoll Rand","Industrials","Industrial Machinery",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19598200832
+"248","INTC","Intel Corp.","Information Technology","Semiconductors","Negligible",16,4,6,6,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,248818122752
+"249","ICE","Intercontinental Exchange","Financials","Financial Exchanges & Data","Negligible",16,1,7,8,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,63821152256
+"250","IBM","International Business Machines","Information Technology","IT Consulting & Other Services","Negligible",18,0,10,7,0.15,NA,NA,NA,NA,NA,NA,2021-03-03,107526168576
+"251","IP","International Paper","Materials","Paper Packaging",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20548225024
+"252","IPG","Interpublic Group","Communication Services","Advertising","Negligible",16,0,10,6,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,10532678656
+"253","IFF","International Flavors & Fragrances","Materials","Specialty Chemicals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34112770048
+"254","INTU","Intuit Inc.","Information Technology","Application Software","Negligible",17,1,10,6,0.11,NA,NA,NA,NA,NA,NA,2021-03-03,110015217664
+"255","ISRG","Intuitive Surgical Inc.","Health Care","Health Care Equipment","Severe",30,5,14,11,0.58,NA,NA,NA,NA,NA,NA,2021-03-03,88288501760
+"256","IVZ","Invesco Ltd.","Financials","Asset Management & Custody Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,10994775040
+"257","IPGP","IPG Photonics Corp.","Information Technology","Electronic Manufacturing Services","Negligible",13,3,4,6,0.05,NA,NA,NA,NA,NA,NA,2021-03-03,11808976896
+"258","IQV","IQVIA Holdings Inc.","Health Care","Life Sciences Tools & Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36961173504
+"259","IRM","Iron Mountain Incorporated","Real Estate","Specialized REITs","Negligible",15,5,4,5,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,10140881920
+"260","JKHY","Jack Henry & Associates","Information Technology","Data Processing & Outsourced Services","Negligible",16,1,10,5,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,11538642944
+"261","J","Jacobs Engineering Group","Industrials","Construction & Engineering","Severe",34,6,18,9,0.71,NA,NA,NA,NA,NA,NA,2021-03-03,14901351424
+"262","JBHT","J. B. Hunt Transport Services","Industrials","Trucking","Negligible",15,4,6,5,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,15932914688
+"263","SJM","JM Smucker","Consumer Staples","Packaged Foods & Meats",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12386505728
+"264","JNJ","Johnson & Johnson","Health Care","Pharmaceuticals","Severe",30,1,20,10,0.59,NA,NA,NA,NA,NA,NA,2021-03-03,418012692480
+"265","JCI","Johnson Controls International","Industrials","Building Products","Negligible",18,9,3,6,0.14,NA,NA,NA,NA,NA,NA,2021-03-03,41270415360
+"266","JPM","JPMorgan Chase & Co.","Financials","Diversified Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,457756999680
+"267","JNPR","Juniper Networks","Information Technology","Communications Equipment","Negligible",16,0,9,6,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,7810493440
+"268","KSU","Kansas City Southern","Industrials","Railroads",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19090757632
+"269","K","Kellogg Co.","Consumer Staples","Packaged Foods & Meats",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19684259840
+"270","KEY","KeyCorp","Financials","Regional Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20006029312
+"271","KEYS","Keysight Technologies","Information Technology","Electronic Equipment & Instruments",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26379407360
+"272","KMB","Kimberly-Clark","Consumer Staples","Household Products",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,43692945408
+"273","KIM","Kimco Realty","Real Estate","Retail REITs","Negligible",14,4,4,5,0.06,NA,NA,NA,NA,NA,NA,2021-03-03,7848785920
+"274","KMI","Kinder Morgan","Energy","Oil & Gas Storage & Transportation","Negligible",18,9,6,4,0.16,NA,NA,NA,NA,NA,NA,2021-03-03,34170552320
+"275","KLAC","KLA Corporation","Information Technology","Semiconductor Equipment","Negligible",20,7,7,6,0.19,NA,NA,NA,NA,NA,NA,2021-03-03,47735521280
+"276","KHC","Kraft Heinz Co","Consumer Staples","Packaged Foods & Meats","Severe",33,12,14,7,0.69,NA,NA,NA,NA,NA,NA,2021-03-03,45649080320
+"277","KR","Kroger Co.","Consumer Staples","Food Retail",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24789458944
+"278","LB","L Brands Inc.","Consumer Discretionary","Apparel Retail","Negligible",16,2,8,6,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,15524043776
+"279","LHX","L3Harris Technologies","Industrials","Aerospace & Defense",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39080833024
+"280","LH","Laboratory Corp. of America Holding","Health Care","Health Care Services","Negligible",15,1,8,7,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,23780239360
+"281","LRCX","Lam Research","Information Technology","Semiconductor Equipment","Negligible",17,5,6,6,0.12,NA,NA,NA,NA,NA,NA,2021-03-03,81937727488
+"282","LW","Lamb Weston Holdings Inc","Consumer Staples","Packaged Foods & Meats",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11904516096
+"283","LVS","Las Vegas Sands","Consumer Discretionary","Casinos & Gaming","Negligible",19,2,8,9,0.17,NA,NA,NA,NA,NA,NA,2021-03-03,49611599872
+"284","LEG","Leggett & Platt","Consumer Discretionary","Home Furnishings",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5973775872
+"285","LDOS","Leidos Holdings","Information Technology","IT Consulting & Other Services","Negligible",14,1,7,6,0.05,NA,NA,NA,NA,NA,NA,2021-03-03,12776226816
+"286","LEN","Lennar Corp.","Consumer Discretionary","Homebuilding",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,25707472896
+"287","LLY","Lilly (Eli) & Co.","Health Care","Pharmaceuticals","Severe",31,2,18,11,0.6,NA,NA,NA,NA,NA,NA,2021-03-03,195653074944
+"288","LNC","Lincoln National","Financials","Multi-line Insurance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,11039504384
+"289","LIN","Linde plc","Materials","Industrial Gases",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,133318918144
+"290","LYV","Live Nation Entertainment","Communication Services","Movies & Entertainment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19748517888
+"291","LKQ","LKQ Corporation","Consumer Discretionary","Distributors","Negligible",14,5,5,4,0.06,NA,NA,NA,NA,NA,NA,2021-03-03,12093048832
+"292","LMT","Lockheed Martin Corp.","Industrials","Aerospace & Defense",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,94840078336
+"293","L","Loews Corp.","Financials","Multi-line Insurance","Negligible",15,1,3,11,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,13186781184
+"294","LOW","Lowe's Cos.","Consumer Discretionary","Home Improvement Retail","Negligible",13,4,5,3,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,119189553152
+"295","LUMN","Lumen Technologies","Communication Services","Alternative Carriers",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14094523392
+"296","LYB","LyondellBasell","Materials","Specialty Chemicals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36052951040
+"297","MTB","M&T Bank","Financials","Regional Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19888566272
+"298","MRO","Marathon Oil Corp.","Energy","Oil & Gas Exploration & Production",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8861323264
+"299","MPC","Marathon Petroleum","Energy","Oil & Gas Refining & Marketing",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,36490936320
+"300","MKTX","MarketAxess","Financials","Financial Exchanges & Data",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21995067392
+"301","MAR","Marriott International","Consumer Discretionary","Hotels, Resorts & Cruise Lines",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48321466368
+"302","MMC","Marsh & McLennan","Financials","Insurance Brokers","Negligible",19,0,8,11,0.19,NA,NA,NA,NA,NA,NA,2021-03-03,58929364992
+"303","MLM","Martin Marietta Materials","Materials","Construction Materials","Severe",31,18,5,9,0.62,NA,NA,NA,NA,NA,NA,2021-03-03,20965113856
+"304","MAS","Masco Corp.","Industrials","Building Products","Negligible",20,11,3,6,0.2,NA,NA,NA,NA,NA,NA,2021-03-03,13883097088
+"305","MA","Mastercard Inc.","Information Technology","Data Processing & Outsourced Services","Negligible",16,0,8,9,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,360411594752
+"306","MKC","McCormick & Co.","Consumer Staples","Packaged Foods & Meats",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22655395840
+"307","MXIM","Maxim Integrated Products","Information Technology","Semiconductors",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,24828637184
+"308","MCD","McDonald's Corp.","Consumer Discretionary","Restaurants",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,155578499072
+"309","MCK","McKesson Corp.","Health Care","Health Care Distributors","Negligible",16,2,9,5,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,27650492416
+"310","MDT","Medtronic plc","Health Care","Health Care Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,158826283008
+"311","MRK","Merck & Co.","Health Care","Pharmaceuticals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,184333795328
+"312","MET","MetLife Inc.","Financials","Life & Health Insurance","Negligible",19,1,8,9,0.16,NA,NA,NA,NA,NA,NA,2021-03-03,52144160768
+"313","MTD","Mettler Toledo","Health Care","Life Sciences Tools & Services","Negligible",11,1,5,6,0.02,NA,NA,NA,NA,NA,NA,2021-03-03,26277117952
+"314","MGM","MGM Resorts International","Consumer Discretionary","Casinos & Gaming",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,19071635456
+"315","MCHP","Microchip Technology","Information Technology","Semiconductors","Severe",34,16,9,9,0.71,NA,NA,NA,NA,NA,NA,2021-03-03,40952057856
+"316","MU","Micron Technology","Information Technology","Semiconductors","Severe",32,15,9,7,0.63,NA,NA,NA,NA,NA,NA,2021-03-03,101899640832
+"317","MSFT","Microsoft Corp.","Information Technology","Systems Software","Negligible",15,0,9,5,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,1763898949632
+"318","MAA","Mid-America Apartments","Real Estate","Residential REITs","Negligible",19,6,7,6,0.17,NA,NA,NA,NA,NA,NA,2021-03-03,15476832256
+"319","MHK","Mohawk Industries","Consumer Discretionary","Home Furnishings","Negligible",14,5,5,4,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,12744686592
+"320","TAP","Molson Coors Beverage Company","Consumer Staples","Brewers","Negligible",19,6,7,6,0.16,NA,NA,NA,NA,NA,NA,2021-03-03,9763122176
+"321","MDLZ","Mondelez International","Consumer Staples","Packaged Foods & Meats",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,75802058752
+"322","MPWR","Monolithic Power Systems","Information Technology","Semiconductors",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16775044096
+"323","MNST","Monster Beverage","Consumer Staples","Soft Drinks","Severe",32,14,12,6,0.65,NA,NA,NA,NA,NA,NA,2021-03-03,45881065472
+"324","MCO","Moody's Corp","Financials","Financial Exchanges & Data","Negligible",12,0,6,6,0.03,NA,NA,NA,NA,NA,NA,2021-03-03,52599422976
+"325","MS","Morgan Stanley","Financials","Investment Banking & Brokerage",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,146516705280
+"326","MOS","The Mosaic Company","Materials","Fertilizers & Agricultural Chemicals","Severe",35,15,12,8,0.74,NA,NA,NA,NA,NA,NA,2021-03-03,11839074304
+"327","MSI","Motorola Solutions Inc.","Information Technology","Communications Equipment","Negligible",14,2,7,5,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,30397995008
+"328","MSCI","MSCI Inc","Financials","Financial Exchanges & Data",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,34583068672
+"329","NDAQ","Nasdaq, Inc.","Financials","Financial Exchanges & Data","Negligible",15,2,7,7,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,23176908800
+"330","NTAP","NetApp","Information Technology","Technology Hardware, Storage & Peripherals","Negligible",16,3,8,6,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,14234091520
+"331","NFLX","Netflix Inc.","Communication Services","Movies & Entertainment","Negligible",18,0,8,10,0.15,NA,NA,NA,NA,NA,NA,2021-03-03,242626740224
+"332","NWL","Newell Brands","Consumer Discretionary","Housewares & Specialties","Negligible",16,7,5,4,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,10211630080
+"333","NEM","Newmont Corporation","Materials","Gold",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,45457833984
+"334","NWSA","News Corp (Class A)","Communication Services","Publishing","Negligible",14,0,6,9,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,13842637824
+"335","NWS","News Corp (Class B)","Communication Services","Publishing",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13885548544
+"336","NEE","NextEra Energy","Utilities","Multi-Utilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,148048576512
+"337","NLSN","Nielsen Holdings","Industrials","Research & Consulting Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8905442304
+"338","NKE","Nike, Inc.","Consumer Discretionary","Apparel, Accessories & Luxury Goods","Negligible",15,2,6,7,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,216010670080
+"339","NI","NiSource Inc.","Utilities","Multi-Utilities","Severe",32,15,11,7,0.65,NA,NA,NA,NA,NA,NA,2021-03-03,8530792448
+"340","NSC","Norfolk Southern Corp.","Industrials","Railroads",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,64585199616
+"341","NTRS","Northern Trust Corp.","Financials","Asset Management & Custody Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20268953600
+"342","NOC","Northrop Grumman","Industrials","Aerospace & Defense","Severe",31,9,17,5,0.59,NA,NA,NA,NA,NA,NA,2021-03-03,49812004864
+"343","NLOK","NortonLifeLock","Information Technology","Application Software","Negligible",17,1,10,5,0.12,NA,NA,NA,NA,NA,NA,2021-03-03,11603105792
+"344","NCLH","Norwegian Cruise Line Holdings","Consumer Discretionary","Hotels, Resorts & Cruise Lines",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9844836352
+"345","NOV","NOV Inc.","Energy","Oil & Gas Equipment & Services","Severe",35,13,13,9,0.73,NA,NA,NA,NA,NA,NA,2021-03-03,5823164928
+"346","NRG","NRG Energy","Utilities","Independent Power Producers & Energy Traders","Severe",32,17,9,6,0.63,NA,NA,NA,NA,NA,NA,2021-03-03,9592999936
+"347","NUE","Nucor Corp.","Materials","Steel","Severe",37,15,14,9,0.79,NA,NA,NA,NA,NA,NA,2021-03-03,18422224896
+"348","NVDA","Nvidia Corporation","Information Technology","Semiconductors","Negligible",13,2,4,7,0.05,NA,NA,NA,NA,NA,NA,2021-03-03,332475006976
+"349","NVR","NVR, Inc.","Consumer Discretionary","Homebuilding",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,17146788864
+"350","ORLY","O'Reilly Automotive","Consumer Discretionary","Specialty Stores","Negligible",12,0,8,4,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,31688497152
+"351","OXY","Occidental Petroleum","Energy","Oil & Gas Exploration & Production","Severe",37,20,11,7,0.79,NA,NA,NA,NA,NA,NA,2021-03-03,25915860992
+"352","ODFL","Old Dominion Freight Line","Industrials","Trucking",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26007959552
+"353","OMC","Omnicom Group","Communication Services","Advertising","Negligible",18,0,10,8,0.15,NA,NA,NA,NA,NA,NA,2021-03-03,15403602944
+"354","OKE","Oneok","Energy","Oil & Gas Storage & Transportation",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20865300480
+"355","ORCL","Oracle Corp.","Information Technology","Application Software","Negligible",18,0,11,7,0.15,NA,NA,NA,NA,NA,NA,2021-03-03,196249042944
+"356","OTIS","Otis Worldwide","Industrials","Industrial Machinery",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28366422016
+"357","PCAR","Paccar","Industrials","Construction Machinery & Heavy Trucks","Severe",35,8,17,9,0.73,NA,NA,NA,NA,NA,NA,2021-03-03,32674525184
+"358","PKG","Packaging Corporation of America","Materials","Paper Packaging","Negligible",20,13,2,4,0.2,NA,NA,NA,NA,NA,NA,2021-03-03,12935515136
+"359","PH","Parker-Hannifin","Industrials","Industrial Machinery",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,38204104704
+"360","PAYX","Paychex Inc.","Information Technology","Data Processing & Outsourced Services","Negligible",16,0,9,7,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,33228539904
+"361","PAYC","Paycom","Information Technology","Application Software",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22884270080
+"362","PYPL","PayPal","Information Technology","Data Processing & Outsourced Services","Negligible",18,0,11,6,0.14,NA,NA,NA,NA,NA,NA,2021-03-03,315269971968
+"363","PNR","Pentair plc","Industrials","Industrial Machinery","Severe",33,10,16,8,0.69,NA,NA,NA,NA,NA,NA,2021-03-03,9581892608
+"364","PBCT","People's United Financial","Financials","Thrifts & Mortgage Finance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,7723278336
+"365","PEP","PepsiCo Inc.","Consumer Staples","Soft Drinks","Negligible",18,5,8,5,0.14,NA,NA,NA,NA,NA,NA,2021-03-03,180825489408
+"366","PKI","PerkinElmer","Health Care","Health Care Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,14280044544
+"367","PRGO","Perrigo","Health Care","Pharmaceuticals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5744906752
+"368","PFE","Pfizer Inc.","Health Care","Pharmaceuticals","Severe",30,2,16,12,0.57,NA,NA,NA,NA,NA,NA,2021-03-03,186906378240
+"369","PM","Philip Morris International","Consumer Staples","Tobacco",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,132492271616
+"370","PSX","Phillips 66","Energy","Oil & Gas Refining & Marketing","Severe",32,18,8,5,0.63,NA,NA,NA,NA,NA,NA,2021-03-03,35945902080
+"371","PNW","Pinnacle West Capital","Utilities","Multi-Utilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8307654144
+"372","PXD","Pioneer Natural Resources","Energy","Oil & Gas Exploration & Production","Severe",37,18,10,9,0.8,NA,NA,NA,NA,NA,NA,2021-03-03,32376999936
+"373","PNC","PNC Financial Services","Financials","Regional Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,73393618944
+"374","POOL","Pool Corporation","Consumer Discretionary","Distributors",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13303863296
+"375","PPG","PPG Industries","Materials","Specialty Chemicals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,33332787200
+"376","PPL","PPL Corp.","Utilities","Electric Utilities","Severe",35,19,11,5,0.74,NA,NA,NA,NA,NA,NA,2021-03-03,20870252544
+"377","PFG","Principal Financial Group","Financials","Life & Health Insurance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15757089792
+"378","PG","Procter & Gamble","Consumer Staples","Personal Products",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,305101275136
+"379","PGR","Progressive Corp.","Financials","Property & Casualty Insurance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,51957444608
+"380","PLD","Prologis","Real Estate","Industrial REITs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,73277054976
+"381","PRU","Prudential Financial","Financials","Life & Health Insurance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35340939264
+"382","PEG","Public Service Enterprise Group (PSEG)","Utilities","Electric Utilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27624359936
+"383","PSA","Public Storage","Real Estate","Specialized REITs","Negligible",15,5,4,5,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,41004617728
+"384","PHM","PulteGroup","Consumer Discretionary","Homebuilding",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12281643008
+"385","PVH","PVH Corp.","Consumer Discretionary","Apparel, Accessories & Luxury Goods","Negligible",13,1,7,5,0.05,NA,NA,NA,NA,NA,NA,2021-03-03,7260041216
+"386","QRVO","Qorvo","Information Technology","Semiconductors","Severe",32,16,9,7,0.65,NA,NA,NA,NA,NA,NA,2021-03-03,20098519040
+"387","PWR","Quanta Services Inc.","Industrials","Construction & Engineering","Severe",36,9,17,11,0.76,NA,NA,NA,NA,NA,NA,2021-03-03,11693484032
+"388","QCOM","Qualcomm","Information Technology","Semiconductors","Negligible",19,6,3,9,0.18,NA,NA,NA,NA,NA,NA,2021-03-03,155677425664
+"389","DGX","Quest Diagnostics","Health Care","Health Care Services","Negligible",19,0,10,9,0.17,NA,NA,NA,NA,NA,NA,2021-03-03,15822424064
+"390","RL","Ralph Lauren Corporation","Consumer Discretionary","Apparel, Accessories & Luxury Goods","Negligible",14,1,7,6,0.06,NA,NA,NA,NA,NA,NA,2021-03-03,8894121984
+"391","RJF","Raymond James Financial","Financials","Investment Banking & Brokerage",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16287080448
+"392","RTX","Raytheon Technologies","Industrials","Aerospace & Defense",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,113459576832
+"393","O","Realty Income Corporation","Real Estate","Retail REITs","Negligible",17,5,6,5,0.11,NA,NA,NA,NA,NA,NA,2021-03-03,22541615104
+"394","REG","Regency Centers Corporation","Real Estate","Retail REITs","Negligible",12,4,4,5,0.03,NA,NA,NA,NA,NA,NA,2021-03-03,9197088768
+"395","REGN","Regeneron Pharmaceuticals","Health Care","Biotechnology",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,48730058752
+"396","RF","Regions Financial Corp.","Financials","Regional Banks","Negligible",19,2,10,8,0.18,NA,NA,NA,NA,NA,NA,2021-03-03,20279828480
+"397","RSG","Republic Services Inc","Industrials","Environmental & Facilities Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29214244864
+"398","RMD","ResMed","Health Care","Health Care Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28113793024
+"399","RHI","Robert Half International","Industrials","Human Resource & Employment Services","Negligible",11,0,7,4,0.02,NA,NA,NA,NA,NA,NA,2021-03-03,8779631616
+"400","ROK","Rockwell Automation Inc.","Industrials","Electrical Components & Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28888909824
+"401","ROL","Rollins, Inc.","Industrials","Environmental & Facilities Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16486757376
+"402","ROP","Roper Technologies","Industrials","Industrial Conglomerates",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39991582720
+"403","ROST","Ross Stores","Consumer Discretionary","Apparel Retail","Negligible",15,2,8,6,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,41934307328
+"404","RCL","Royal Caribbean Group","Consumer Discretionary","Hotels, Resorts & Cruise Lines",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22246078464
+"405","SPGI","S&P Global Inc.","Financials","Financial Exchanges & Data","Negligible",13,2,6,5,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,80138657792
+"406","CRM","Salesforce.com","Information Technology","Application Software","Negligible",11,0,6,4,0.02,NA,NA,NA,NA,NA,NA,2021-03-03,195908681728
+"407","SBAC","SBA Communications","Real Estate","Specialized REITs","Negligible",17,2,8,7,0.13,NA,NA,NA,NA,NA,NA,2021-03-03,26928549888
+"408","SLB","Schlumberger Ltd.","Energy","Oil & Gas Equipment & Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,39347314688
+"409","STX","Seagate Technology","Information Technology","Technology Hardware, Storage & Peripherals","Negligible",11,2,4,5,0.02,NA,NA,NA,NA,NA,NA,2021-03-03,17164177408
+"410","SEE","Sealed Air","Materials","Paper Packaging","Negligible",20,14,3,3,0.2,NA,NA,NA,NA,NA,NA,2021-03-03,6757566976
+"411","SRE","Sempra Energy","Utilities","Multi-Utilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,35442483200
+"412","NOW","ServiceNow","Information Technology","Systems Software","Negligible",17,1,9,6,0.12,NA,NA,NA,NA,NA,NA,2021-03-03,107717730304
+"413","SHW","Sherwin-Williams","Materials","Specialty Chemicals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,61796638720
+"414","SPG","Simon Property Group Inc","Real Estate","Retail REITs","Negligible",15,6,5,5,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,36686991360
+"415","SWKS","Skyworks Solutions","Information Technology","Semiconductors","Severe",33,15,10,8,0.69,NA,NA,NA,NA,NA,NA,2021-03-03,29663860736
+"416","SLG","SL Green Realty","Real Estate","Office REITs","Negligible",13,3,4,6,0.05,NA,NA,NA,NA,NA,NA,2021-03-03,4830505984
+"417","SNA","Snap-on","Industrials","Industrial Machinery","Severe",33,11,14,8,0.66,NA,NA,NA,NA,NA,NA,2021-03-03,11377772544
+"418","SO","Southern Company","Utilities","Electric Utilities","Severe",32,13,12,7,0.64,NA,NA,NA,NA,NA,NA,2021-03-03,61103755264
+"419","LUV","Southwest Airlines","Industrials","Airlines","Severe",31,10,15,6,0.62,NA,NA,NA,NA,NA,NA,2021-03-03,34147096576
+"420","SWK","Stanley Black & Decker","Industrials","Industrial Machinery",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29840824320
+"421","SBUX","Starbucks Corp.","Consumer Discretionary","Restaurants",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,126206550016
+"422","STT","State Street Corp.","Financials","Asset Management & Custody Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27098073088
+"423","STE","Steris","Health Care","Health Care Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15173150720
+"424","SYK","Stryker Corp.","Health Care","Health Care Equipment","Severe",34,5,18,12,0.72,NA,NA,NA,NA,NA,NA,2021-03-03,92315959296
+"425","SIVB","SVB Financial","Financials","Regional Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27078885376
+"426","SYF","Synchrony Financial","Financials","Consumer Finance","Negligible",19,0,12,7,0.19,NA,NA,NA,NA,NA,NA,2021-03-03,23098372096
+"427","SNPS","Synopsys Inc.","Information Technology","Application Software","Negligible",15,1,9,4,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,37768691712
+"428","SYY","Sysco Corp.","Consumer Staples","Food Distributors","Negligible",12,2,5,4,0.03,NA,NA,NA,NA,NA,NA,2021-03-03,40848273408
+"429","TMUS","T-Mobile US","Communication Services","Wireless Telecommunication Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,152180850688
+"430","TROW","T. Rowe Price Group","Financials","Asset Management & Custody Banks","Negligible",20,2,12,6,0.19,NA,NA,NA,NA,NA,NA,2021-03-03,38671036416
+"431","TTWO","Take-Two Interactive","Communication Services","Interactive Home Entertainment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21673043968
+"432","TPR","Tapestry, Inc.","Consumer Discretionary","Apparel, Accessories & Luxury Goods","Negligible",14,1,7,5,0.05,NA,NA,NA,NA,NA,NA,2021-03-03,11758104576
+"433","TGT","Target Corp.","Consumer Discretionary","General Merchandise Stores","Negligible",15,2,8,5,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,86879109120
+"434","TEL","TE Connectivity Ltd.","Information Technology","Electronic Manufacturing Services","Negligible",16,7,5,5,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,44600524800
+"435","TDY","Teledyne Technologies","Industrials","Aerospace & Defense",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,13875466240
+"436","TFX","Teleflex","Health Care","Health Care Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18852407296
+"437","TER","Teradyne","Information Technology","Semiconductor Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21136926720
+"438","TSLA","Tesla, Inc.","Consumer Discretionary","Automobile Manufacturers","Severe",31,3,17,11,0.61,NA,NA,NA,NA,NA,NA,2021-03-03,658882166784
+"439","TXN","Texas Instruments","Information Technology","Semiconductors","Negligible",18,6,5,6,0.13,NA,NA,NA,NA,NA,NA,2021-03-03,160940589056
+"440","TXT","Textron Inc.","Industrials","Aerospace & Defense","Severe",35,10,18,7,0.74,NA,NA,NA,NA,NA,NA,2021-03-03,11637786624
+"441","TMO","Thermo Fisher Scientific","Health Care","Life Sciences Tools & Services","Negligible",14,2,6,6,0.06,NA,NA,NA,NA,NA,NA,2021-03-03,181975678976
+"442","TJX","TJX Companies Inc.","Consumer Discretionary","Apparel Retail","Negligible",15,2,7,5,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,79493709824
+"443","TSCO","Tractor Supply Company","Consumer Discretionary","Specialty Stores","Negligible",16,3,8,4,0.09,NA,NA,NA,NA,NA,NA,2021-03-03,18481551360
+"444","TT","Trane Technologies plc","Industrials","Building Products","Negligible",15,7,2,5,0.07,NA,NA,NA,NA,NA,NA,2021-03-03,37709930496
+"445","TDG","TransDigm Group","Industrials","Aerospace & Defense","Severe",40,11,20,8,0.84,NA,NA,NA,NA,NA,NA,2021-03-03,32635600896
+"446","TRV","The Travelers Companies","Financials","Property & Casualty Insurance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,37610151936
+"447","TRMB","Trimble Inc.","Information Technology","Electronic Equipment & Instruments","Negligible",13,4,4,5,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,18966181888
+"448","TFC","Truist Financial","Financials","Regional Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,78487871488
+"449","TWTR","Twitter, Inc.","Communication Services","Interactive Media & Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,58799931392
+"450","TYL","Tyler Technologies","Information Technology","Application Software",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18845849600
+"451","TSN","Tyson Foods","Consumer Staples","Packaged Foods & Meats","Severe",36,13,13,10,0.77,NA,NA,NA,NA,NA,NA,2021-03-03,25049862144
+"452","UDR","UDR, Inc.","Real Estate","Residential REITs","Negligible",13,4,4,5,0.04,NA,NA,NA,NA,NA,NA,2021-03-03,12499132416
+"453","ULTA","Ulta Beauty","Consumer Discretionary","Specialty Stores","Negligible",17,4,7,6,0.12,NA,NA,NA,NA,NA,NA,2021-03-03,18975967232
+"454","USB","U.S. Bancorp","Financials","Diversified Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,76083396608
+"455","UAA","Under Armour (Class A)","Consumer Discretionary","Apparel, Accessories & Luxury Goods","Negligible",16,2,8,6,0.09,NA,NA,NA,NA,NA,NA,2021-03-03,9522817024
+"456","UA","Under Armour (Class C)","Consumer Discretionary","Apparel, Accessories & Luxury Goods",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9503667200
+"457","UNP","Union Pacific Corp","Industrials","Railroads",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,140195217408
+"458","UAL","United Airlines Holdings","Industrials","Airlines","Severe",32,11,15,6,0.63,NA,NA,NA,NA,NA,NA,2021-03-03,16946107392
+"459","UNH","UnitedHealth Group Inc.","Health Care","Managed Health Care",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,316341551104
+"460","UPS","United Parcel Service","Industrials","Air Freight & Logistics",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,139914067968
+"461","URI","United Rentals, Inc.","Industrials","Trading Companies & Distributors","Negligible",17,5,7,6,0.12,NA,NA,NA,NA,NA,NA,2021-03-03,21184718848
+"462","UHS","Universal Health Services","Health Care","Health Care Facilities","Severe",35,3,22,10,0.75,NA,NA,NA,NA,NA,NA,2021-03-03,11006870528
+"463","UNM","Unum Group","Financials","Life & Health Insurance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5476289536
+"464","VLO","Valero Energy","Energy","Oil & Gas Refining & Marketing",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31308181504
+"465","VAR","Varian Medical Systems","Health Care","Health Care Equipment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,16169139200
+"466","VTR","Ventas Inc","Real Estate","Health Care REITs","Negligible",12,3,4,5,0.03,NA,NA,NA,NA,NA,NA,2021-03-03,19860672512
+"467","VRSN","Verisign Inc.","Information Technology","Internet Services & Infrastructure",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,21939300352
+"468","VRSK","Verisk Analytics","Industrials","Research & Consulting Services",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,27085334528
+"469","VZ","Verizon Communications","Communication Services","Integrated Telecommunication Services","Negligible",18,2,10,6,0.15,NA,NA,NA,NA,NA,NA,2021-03-03,227515482112
+"470","VRTX","Vertex Pharmaceuticals Inc","Health Care","Biotechnology",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,55127117824
+"471","VFC","VF Corporation","Consumer Discretionary","Apparel, Accessories & Luxury Goods","Negligible",11,1,6,5,0.02,NA,NA,NA,NA,NA,NA,2021-03-03,32194973696
+"472","VIAC","ViacomCBS","Communication Services","Movies & Entertainment",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,42577195008
+"473","VTRS","Viatris","Health Care","Pharmaceuticals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,17249171456
+"474","V","Visa Inc.","Information Technology","Data Processing & Outsourced Services","Negligible",17,0,10,7,0.13,NA,NA,NA,NA,NA,NA,2021-03-03,475740471296
+"475","VNT","Vontier","Information Technology","Electronic Equipment & Instruments",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5326085632
+"476","VNO","Vornado Realty Trust","Real Estate","Office REITs","Negligible",14,2,5,6,0.05,NA,NA,NA,NA,NA,NA,2021-03-03,8356472832
+"477","VMC","Vulcan Materials","Materials","Construction Materials",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,22392489984
+"478","WRB","W. R. Berkley Corporation","Financials","Property & Casualty Insurance",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12500473856
+"479","WAB","Westinghouse Air Brake Technologies Corp","Industrials","Construction Machinery & Heavy Trucks","Severe",33,10,14,8,0.66,NA,NA,NA,NA,NA,NA,2021-03-03,14123753472
+"480","WMT","Walmart","Consumer Staples","Hypermarkets & Super Centers",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,368118923264
+"481","WBA","Walgreens Boots Alliance","Consumer Staples","Drug Retail","Negligible",17,2,11,5,0.13,NA,NA,NA,NA,NA,NA,2021-03-03,40990150656
+"482","DIS","The Walt Disney Company","Communication Services","Movies & Entertainment","Negligible",16,0,8,8,0.1,NA,NA,NA,NA,NA,NA,2021-03-03,352051527680
+"483","WM","Waste Management Inc.","Industrials","Environmental & Facilities Services","Negligible",15,8,4,4,0.08,NA,NA,NA,NA,NA,NA,2021-03-03,48379080704
+"484","WAT","Waters Corporation","Health Care","Health Care Distributors","Negligible",18,1,11,6,0.15,NA,NA,NA,NA,NA,NA,2021-03-03,17074535424
+"485","WEC","WEC Energy Group","Utilities","Electric Utilities","Severe",32,18,9,5,0.65,NA,NA,NA,NA,NA,NA,2021-03-03,26190567424
+"486","WFC","Wells Fargo","Financials","Diversified Banks","Severe",31,1,15,15,0.62,NA,NA,NA,NA,NA,NA,2021-03-03,153540837376
+"487","WELL","Welltower Inc.","Real Estate","Health Care REITs","Negligible",11,4,3,5,0.03,NA,NA,NA,NA,NA,NA,2021-03-03,28640823296
+"488","WST","West Pharmaceutical Services","Health Care","Health Care Supplies",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,20608045056
+"489","WDC","Western Digital","Information Technology","Technology Hardware, Storage & Peripherals","Negligible",13,3,5,6,0.05,NA,NA,NA,NA,NA,NA,2021-03-03,21285984256
+"490","WU","Western Union Co","Information Technology","Data Processing & Outsourced Services","Negligible",16,0,10,7,0.11,NA,NA,NA,NA,NA,NA,2021-03-03,9730632704
+"491","WRK","WestRock","Materials","Paper Packaging",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12324689920
+"492","WY","Weyerhaeuser","Real Estate","Specialized REITs","Negligible",19,11,4,4,0.17,NA,NA,NA,NA,NA,NA,2021-03-03,25267081216
+"493","WHR","Whirlpool Corp.","Consumer Discretionary","Household Appliances","Negligible",18,7,7,5,0.15,NA,NA,NA,NA,NA,NA,2021-03-03,12219282432
+"494","WMB","Williams Companies","Energy","Oil & Gas Storage & Transportation",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,28791097344
+"495","WLTW","Willis Towers Watson","Financials","Insurance Brokers",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,29290604544
+"496","WYNN","Wynn Resorts Ltd","Consumer Discretionary","Casinos & Gaming",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,15376794624
+"497","XEL","Xcel Energy Inc","Utilities","Multi-Utilities",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31710539776
+"498","XRX","Xerox","Information Technology","Technology Hardware, Storage & Peripherals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,5129220096
+"499","XLNX","Xilinx","Information Technology","Semiconductors",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31873744896
+"500","XYL","Xylem Inc.","Industrials","Industrial Machinery","Negligible",16,4,8,5,0.11,NA,NA,NA,NA,NA,NA,2021-03-03,18389301248
+"501","YUM","Yum! Brands Inc","Consumer Discretionary","Restaurants",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,31427760128
+"502","ZBRA","Zebra Technologies","Information Technology","Electronic Equipment & Instruments",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,26820317184
+"503","ZBH","Zimmer Biomet","Health Care","Health Care Equipment","Severe",34,5,19,10,0.71,NA,NA,NA,NA,NA,NA,2021-03-03,33504309248
+"504","ZION","Zions Bancorp","Financials","Regional Banks",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,8906968064
+"505","ZTS","Zoetis","Health Care","Pharmaceuticals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,74648698880
