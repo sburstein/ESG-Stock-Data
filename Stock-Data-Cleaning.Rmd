@@ -1,0 +1,79 @@
+---
+title: "Stock-Data-Cleaning"
+output: html_document
+---
+
+# Load Packages
+
+```{r packages}
+library(tidyverse)
+```
+
+# Load Data
+From ESG-Stock-Data.Rmd
+
+```{r data}
+# Stock ESG Data from Previous Scraping
+esg_data <- read.csv("dat_stocks.csv")
+summary(esg_data)
+head(esg_data, 10)
+colnames(esg_data)
+
+# S&P 500 Performance Data
+
+#Replace with correct memory address
+# mine is /Users/ScottBurstein/Desktop/spring2021/STA_210/s-and-p-500-companies-financials_zip/data/constituents-financials_csv.csv
+
+sp500 <- read.csv("/Users/ScottBurstein/Desktop/spring2021/STA_210/s-and-p-500-companies-financials_zip/data/constituents-financials_csv.csv")
+summary(sp500)
+head(sp500, 10)
+colnames(sp500)
+```
+
+# Clean ESG Dataframe
+
+```{r clean-esg}
+## Remove Unused Relative Rank Columns from ESG Dataframe
+esg_data <- esg_data %>%
+  subset(select = -c(esgRank.env, esgRank.soc, esgRank.gov, conRating, conLevel, conAreas))
+
+# Remove NA Rows From ESG Dataframe
+esg_data <- esg_data %>% drop_na()
+```
+
+# Merge ESG and S&P 500 Dataframes
+
+```{r merge-dfs}
+final_df <- left_join(esg_data, sp500, by = c("ticker" = "Symbol"))
+```
+
+## Clean Final Dataframe to Remove Duplicate Columns
+
+```{r final-df-cleaning}
+# Remove repeated columns (Name, Sector)
+final_df <- final_df %>%
+  subset(select = -c(Name, Sector))
+
+# Remove rows with NA financial data
+final_df <- final_df %>% drop_na()
+
+final_df
+```
+
+
+## Save Finished Dataframe to .csv File
+
+```{r save-stock-csv}
+# view data
+view(final_df)
+
+#save to .csv file
+write.csv(final_df, 'sp_esg_stock_data.csv')
+```
+
+
+## Sources Cited:
+
+https://cran.r-project.org/web/packages/quantmod/quantmod.pdf
+https://www.quantmod.com
+https://bookdown.org/kochiuyu/Technical-Analysis-with-R/quantmod.html
