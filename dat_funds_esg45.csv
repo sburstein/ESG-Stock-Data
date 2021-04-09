@@ -1,0 +1,46 @@
+ticker,familyName,fundName,fundCategory,esgScore.tot,esgScore.env,esgScore.soc,esgScore.gov,esgRank.tot,esgRating,sustainabilityMandate,asOf
+ABEMX,Aberdeen,Aberdeen Emerging Markets Fund,US Fund Diversified Emerging Mkts,24,5.5,9.4,9.3,0.19,Above Average,0,4/9/21
+ABALX,American Funds,American Funds American Balanced Fund,ÊUS Fund Allocation--50% to 70% Equity,23,4.7,10.8,7.7,0.63,Average,0,4/9/21
+AMRMX,American Funds,American Funds American Mutual Fund,US Fund Large Value,23,5.2,10.3,7.1,0.26,Above Average,0,4/9/21
+AEPGX,American Funds,American Funds EuroPacific Growth Fund,US Fund Foreign Large Growth,24,4.9,10,8.3,0.88,Below Average,0,4/9/21
+AGTHX,American Funds,American Funds The Growth Fund of America,US Fund Large Growth,24,3.3,11.3,8.1,0.93,Below Average,0,4/9/21
+AWSHX,American Funds,American Funds Washington Mutual Investors Fund,US Fund Large Blend,23,4.8,10.9,7.5,0.82,Below Average,0,4/9/21
+ARGFX,Ariel Investments,Ariel Fund,US Fund Mid-Cap Value,20,2.7,6.8,5.7,0.02,High,0,4/9/21
+CSIEX,Calvert Research and Management,Calvert Equity Fund,US Fund Large Growth,19,2.9,9.4,7,0.04,High,0,4/9/21
+ETGLX,Eventide Funds,Eventide Gilead Fund,US Fund Mid-Cap Growth,23,3.2,6.5,4.6,0.24,Average,0,4/9/21
+FXAIX,Fidelity Investments,Fidelity 500 Index Fund,US Fund Large Blend,22,3.7,10.4,7.9,0.47,Average,0,4/9/21
+FKGRX,Franklin Templeton Investments,Franklin Growth Series,US Fund Large Growth,21,3.4,10,7.3,0.52,Average,0,4/9/21
+HAIAX,Hartford Mutual Funds,Hartford Core Equity Fund,US Fund Large Blend,22,3.8,10.6,8,0.66,Below Average,0,4/9/21
+SEMVX,Hartford Mutual Funds,Hartford Schroders Emerging Markets Equity Fund,US Fund Diversified Emerging Mkts,25,5.5,9.5,9,0.25,Above Average,0,4/9/21
+HBLAX,Hartford Mutual Funds,The Hartford Balanced Income Fund,US Fund Allocation--30% to 50% Equity,25,5.2,11,7.8,0.81,Below Average,0,4/9/21
+ITHAX,Hartford Mutual Funds,The Hartford Capital Appreciation Fund,US Fund Large Blend,23,3.8,10.4,7.2,0.78,Below Average,0,4/9/21
+IHGIX,Hartford Mutual Funds,The Hartford Dividend and Growth Fund,US Fund Large Value,22,4.4,10.3,7.7,0.21,Above Average,0,4/9/21
+HQIAX,Hartford Mutual Funds,The Hartford Equity Income Fund,US Fund Large Value,24,5.4,11.1,7.8,0.7,Average,0,4/9/21
+HGOAX,Hartford Mutual Funds,The Hartford Growth Opportunities Fund,US Fund Large Growth,23,3,11.2,7.7,0.85,Low,0,4/9/21
+IHOAX,Hartford Mutual Funds,The Hartford International Opportunities Fund,US Fund Foreign Large Blend,22,4.6,8.8,7.6,0.38,Average,0,4/9/21
+HFMCX,Hartford Mutual Funds,The Hartford MidCap Fund,US Fund Mid-Cap Growth,25,3.5,7.8,5.4,0.57,Average,0,4/9/21
+SMMIX,Invesco,Invesco Summit Fund,US Fund Large Growth,23,2.7,9.5,7.3,0.82,Below Average,0,4/9/21
+JENSX,Jensen,Jensen Quality Growth Fund,US Fund Large Growth,22,2.9,11.1,7.5,0.62,Below Average,0,4/9/21
+JMIEX,JPMorgan,JPMorgan Emerging Markets Equity Fund,US Fund Diversified Emerging Mkts,24,4.3,9.9,8.8,0.09,High,0,4/9/21
+JHQAX,JPMorgan,JPMorgan Hedged Equity Fund,US Fund Options-based,22,3.7,10.1,7.8,0.13,Above Average,0,4/9/21
+JFTAX,JPMorgan,JPMorgan International Advantage Fund,US Fund Foreign Large Blend,22,4.8,9,7.5,0.59,Average,0,4/9/21
+OIEAX,JPMorgan,JPMorgan International Research Enhanced Equity Fund,US Fund Foreign Large Blend,22,4.7,9,7.9,0.37,Average,0,4/9/21
+JMUEX,JPMorgan,JPMorgan U.S. Equity Fund,US Fund Large Blend,22,3.8,10.3,7.8,0.35,Above Average,0,4/9/21
+JLCAX,JPMorgan,JPMorgan U.S. Large Cap Core Plus Fund,US Fund Large Blend,22,4.2,10.1,7.5,0.39,Above Average,0,4/9/21
+SHRAX,Legg Mason,ClearBridge Aggressive Growth Fund,US Fund Large Growth,22,2.2,10.8,7,0.71,Average,0,4/9/21
+SHAPX,Legg Mason,ClearBridge Appreciation Fund,US Fund Large Blend,21,3.3,10,7.6,0.15,Above Average,0,4/9/21
+SASMX,Legg Mason,ClearBridge Small Cap Growth Fund,US Fund Small Growth,27,NA,NA,NA,0.24,Average,0,4/9/21
+MLAAX,MainStay,MainStay Large Cap Growth Fund,US Fund Large Growth,20,2,10.1,7.9,0.11,Above Average,0,4/9/21
+MGGIX,Morgan Stanley,"Morgan Stanley Institutional Fund, Inc. Global Opportunity Portfolio",US Fund World Large Stock,21,1.9,9.8,8,0.32,Above Average,0,4/9/21
+MSIQX,Morgan Stanley,"Morgan Stanley Institutional Fund, Inc. International Equity Portfolio",US Fund Foreign Large Blend,22,4.4,9.4,7.7,0.36,Average,0,4/9/21
+PRBLX,Parnassus,Parnassus Core Equity Fund,US Fund Large Blend,20,3.6,9.6,6.8,0.05,High,0,4/9/21
+PARWX,Parnassus,Parnassus Endeavor Fund,US Fund Large Value,20,3.9,8.1,7.5,0.05,High,0,4/9/21
+PARMX,Parnassus,Parnassus Mid Cap Fund,US Fund Mid-Cap Blend,21,4.5,9.7,6.3,0.05,High,0,4/9/21
+PIODX,Pioneer Investments,Pioneer Fund,US Fund Large Blend,22,3.7,10,8.1,0.62,Average,0,4/9/21
+PNOPX,Putnam,Putnam Sustainable Leaders Fund,US Fund Large Growth,21,4.1,9.3,6.9,0.28,Above Average,0,4/9/21
+TISCX,TIAA Investments,TIAA-CREF Social Choice Equity Fund,US Fund Large Blend,21,3.4,9.1,6.8,0.14,Above Average,0,4/9/21
+VFINX,Vanguard,Vanguard 500 Index Fund,US Fund Large Blend,22,3.7,10.4,7.9,0.47,Average,0,4/9/21
+VFTAX,Vanguard,Vanguard FTSE Social Index Fund Admiral,US Fund Large Blend,21,2.8,10.2,7.8,0.16,Above Average,0,4/9/21
+VINIX,Vanguard,Vanguard Institutional Index Fund,US Fund Large Blend,22,3.7,10.4,7.9,0.46,Average,0,4/9/21
+VGTSX,Vanguard,Vanguard Total International Stock Index Fund,US Fund Foreign Large Blend,24,5.1,9.1,7.8,0.9,Below Average,0,4/9/21
+VTSMX,Vanguard,Vanguard Total Stock Market Index Fund,US Fund Large Blend,23,3.5,9.8,7.3,0.75,Below Average,0,4/9/21
